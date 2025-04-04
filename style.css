@@ -72,6 +72,19 @@ ul li a:hover{
     color: #4f6f8a;
 }
 
+.header-container {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.profile-img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
 .content{
     width: 1200px;
     height: auto;
