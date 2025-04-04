@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+
+*{
+    font-family: "Doto", sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(77, 110, 182, 0.5)50%,rgba(77, 110, 182, 0.5)50%), url('1.vid.gif');
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+}
+
+.logo{
+    color: aqua;
+    font-size: 35px;
+    font-family: "Doto", sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: 50px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    height: 70px;
+    gap: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+ul li{
+    list-style: none ;
+    margin-top: 20px;
+    font-size: 20px;
+}
+ul  li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Doto", sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+
+}
+ul li a:hover{
+    color: #4f6f8a;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #ffffff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+
+
